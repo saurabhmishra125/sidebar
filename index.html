@@ -10,7 +10,7 @@
     <div class="container">
         <div class="header">
             <div class="navigation">
-                <input type="checkbox" id="check">
+                <input type="checkbox" id="check" onclick=side()>
                 <label for="check">
                 <div id="menubar">
                     <div class="icon" id="m1"></div>
@@ -36,9 +36,9 @@
         </div>
     </div>
     <script>
-        document.getElementById("menubar").addEventListener("hover",side());
+        // document.getElementById("check").;
         function side(){
-            document.querySelector("#sidebar").style.display="block";
+            document.querySelector("#sidebar").style.display="none";
         }
     </script>
 </body>
