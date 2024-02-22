@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navigation">
+                <input type="checkbox" id="check">
+                <label for="check">
+                <div id="menubar">
+                    <div class="icon" id="m1"></div>
+                    <div class="icon" id="m2"></div>
+                    <div class="icon" id="m3"></div>
+                </div>
+            </label>
+            <div class="logo">side bussiness</div>
+            </div>
+        </div>
+        <div class="hero-sec">
+            <div id="sidebar">
+                  <ul>
+                    <li><a href="https://instagram.com/plavookac">instagram</a></li>
+                    <li><a href="https://twitter.com/plavookac">twitter</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCDfZM0IK6RBgud8HYGFXAJg">youtube</a></li>
+                    <li><a href="https://www.linkedin.com/in/plavookac/">linkedin</a></li>
+                  </ul>
+            </div>
+            <div id="hero">
+                <h1>SIDE BAR PRACTICE</h1>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("menubar").addEventListener("hover",side());
+        function side(){
+            document.querySelector("#sidebar").style.display="block";
+        }
+    </script>
+</body>
+</html>
