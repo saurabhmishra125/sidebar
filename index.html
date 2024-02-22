@@ -36,9 +36,14 @@
         </div>
     </div>
     <script>
-        // document.getElementById("check").;
+       let x=document.querySelector("#sidebar");
         function side(){
-            document.querySelector("#sidebar").style.display="none";
+            if(x.style.display =="block"){
+                x.style.display='none';
+            }
+            else{
+                x.style.display='block';
+            }
         }
     </script>
 </body>
